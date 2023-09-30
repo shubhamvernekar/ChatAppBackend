@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const sessionManager = require("./controller/SessionManager.js");
 const bodyParser = require("body-parser");
 
 const userRoutes = require("./routes/UserRoute.js");
